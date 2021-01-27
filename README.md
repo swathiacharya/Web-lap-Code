@@ -5,7 +5,7 @@ In this repository, i have written all the vtu web lab code which inclues **HTML
 ---
 ---
 
-##Lab Experiments:
+## Lab Experiments:
 
 1. Write a JavaScript to design a simple calculator to perform the following operations: sum, product, difference and quotient.
 
