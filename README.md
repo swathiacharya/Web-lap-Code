@@ -1,6 +1,6 @@
 # Web-lap-Code
 
-In this repository, i have written all the vtu web lab code which inclues ** HTML, CSS, JAVASCRIPT AND PHP **.
+In this repository, i have written all the vtu web lab code which inclues **HTML, CSS, JAVASCRIPT AND PHP**.
 
 ---
 ---
