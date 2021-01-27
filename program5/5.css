@@ -1,0 +1,33 @@
+STUDENTDETAIL{
+	background-color: BISQUE;
+	
+	font-family: 'ubuntu';
+	
+}
+
+*{
+
+	display:block;
+	
+
+}
+
+
+STUDENT{
+	margin:25px;
+	text-align:center;
+}
+INFO{
+	background-color:aqua;
+	color: red;
+	font-size:40px;
+}
+
+USN, MARK, BRANCH, COLLEGE,  YEAR, NAME{
+	background-color:gray;
+	//margin-left:25px;
+	font-size :25px;
+	
+
+
+}

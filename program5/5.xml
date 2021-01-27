@@ -1,0 +1,35 @@
+<?xml version ="1.0"  encoding = 'utf-8'?>
+<?xml-stylesheet type='text/css' href='5.css'?>
+
+<STUDENTDETAIL>
+	<STUDENT>
+		<INFO>Student Detail ::: 1 </INFO>
+		<NAME>NAME : Kavya k kamath</NAME>
+		<USN>USN : 4SF17CS072</USN>
+		<MARK>MARK : 90</MARK>
+		<YEAR>YEAR : 2017</YEAR>
+		<BRANCH>BRANCH : CSE</BRANCH>
+		<COLLEGE>COLLEGE : SAHYADRI COLLEGE</COLLEGE>	
+	</STUDENT>
+	
+	<STUDENT>
+		<INFO>Student Detail ::: 2 </INFO>
+		<NAME>NAME : NAME : Rheona</NAME>
+		<USN>USN : 4SF17CS123</USN>
+		<MARK>MARK : 90</MARK>
+		<YEAR>YEAR : 2017</YEAR>
+		<BRANCH>BRANCH : CSE</BRANCH>
+		<COLLEGE>COLLEGE : SAHYADRI COLLEGE</COLLEGE>	
+	</STUDENT>
+	
+	
+	<STUDENT>
+		<INFO>Student Detail ::: 3 </INFO>
+		<NAME>NAME : Swathi Acharya</NAME>
+		<USN>USN : 4SF17CS169</USN>
+		<MARK>MARK : 90</MARK>
+		<YEAR>YEAR : 2017</YEAR>
+		<BRANCH>BRANCH : CSE</BRANCH>
+		<COLLEGE>COLLEGE : SAHYADRI COLLEGE</COLLEGE>	
+	</STUDENT>
+</STUDENTDETAIL>

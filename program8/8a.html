@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Simple Calculator using PHP</title>
+		<style>
+		h1, h2,h3, h4{
+			text-align:center;
+		}
+		form{
+			background-color: aqua;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Calculation</h1>
+		<br>
+		
+		<form action="8a.php" method = "post">
+			<br>
+			<h3>Number 1 : <input type = "text" name = "op1"/> </h3> 
+			<h3>choose the operation </h3>
+			<h4>
+			<input type="radio" name="operation" value='+'>Addition(+)
+			<input type="radio" name="operation" value='-'>Substraction(-)			
+			<input type="radio" name="operation" value='*'>Multiply(*)			
+			<input type="radio" name="operation" value='/'>Division(/)
+			</h4>
+			
+			 
+			<h3>Number 2 : <input type = "text" name = "op2"/> </h3><br>
+			 <h3>
+				 <input type="submit" value="Submit" name="submit" />
+				 <input type="reset" value="Reset" name="reset" />
+			</h3>
+			<br>
+		</form>
+		
+		
+		
+	</body>
+</html>

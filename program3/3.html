@@ -1,0 +1,46 @@
+<html>
+	<body>
+		<h1 style = "color:red; font-size:5px; text-align: center"></h1>
+		<script>
+			var flag = 0;
+			var font = 5;
+			var text = document.querySelector('h1');
+			
+			
+			function inc(){
+				font ++;
+				text.style.fontSize = font;
+				text.style.color = 'red';
+				text.textContent = 'Text-Growing';
+				if (font == 50){
+					flag = 1;
+				}
+			}
+			
+			
+			function dec(){
+				font --;
+				text.style.fontSize = font;
+				text.style.color = 'blue';
+				text.textContent = 'Text-Shrinking';
+				if (font == 0){
+					flag = 0;
+				}
+			}
+			
+			var time = setInterval(function(){
+				if(flag==0)
+				{
+					inc();
+				}
+				if(flag==1)
+				{
+					dec();
+				}
+				
+			
+			},100);
+		
+		</script>
+	</body>
+</html>

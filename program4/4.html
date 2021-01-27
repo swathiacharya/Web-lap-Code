@@ -1,0 +1,41 @@
+<html>
+	<body>
+		<script type="text/javascript">
+			var str = prompt("Enter the input");
+			
+			
+			if(isNaN(str)){
+				str = str.toLocaleUpperCase();
+				for(var i=0;i<str.length;i++)
+				{
+					var ch = str.charAt(i);
+					if(ch == 'A'|| ch == 'E'||ch == 'I'||ch == 'O'||ch == 'U')
+					{
+						break;
+					}
+				}
+				if(i<str.length)
+				{
+					alert("Vowel Postion :  "+ (i+1));
+				}			
+				else{
+					alert("NO VOWEL");
+				}
+			
+			}
+			else{
+				var num, rev=0, rem;
+				num = parseInt(str);
+				while(num!=0)
+				{
+					rem = num % 10;
+					num = parseInt(num/10);
+					rev = rev * 10 + rem;
+				}
+				alert("Reversed Number of Input ::: " + rev);
+				
+			}
+		</script>
+	</body>
+
+</html>
